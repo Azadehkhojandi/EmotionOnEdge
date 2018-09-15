@@ -1,0 +1,16 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EmotionApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Custom="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    x:Class="EmotionApp.MainPage"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Custom:CameraPreview Name="Camera"  HorizontalAlignment="Center" VerticalAlignment="Top" Height="454" Width="890" Margin="0,103,0,0"/>
+        <TextBox HorizontalAlignment="Center" Visibility="Visible"  Name="Result"  Margin="0,595,0,0" Text="Ready..."  FontSize="60" TextAlignment="Center" VerticalAlignment="Top" Height="99" Width="511"/>
+    </Grid>
+</Page>
